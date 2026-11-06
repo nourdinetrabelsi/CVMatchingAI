@@ -1,0 +1,18 @@
+# Local configuration and credentials
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
+
+# Datasets and personal documents
+data/
+local_data/
+*.pdf
+*.docx
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
