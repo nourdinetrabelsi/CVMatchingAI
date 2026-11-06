@@ -20,11 +20,11 @@ Python · Streamlit · scikit-learn · NLP · Sentence Transformers · Groq (opt
 2. Install Python dependencies: `pip install -r requirements.txt`
 3. Start the app: `streamlit run app.py`
 
-> **Publication in progress:** The README has been added first. Application source files and tests will be uploaded separately. The application is not runnable from this repository until those files are present.
+The core Streamlit application, matching modules, and automated tests are included. The original private CV datasets are intentionally not published. The optional Groq integration requires a personal API key.
 
 ## Data and privacy
 
-The original CV datasets and any real candidate information are intentionally excluded from the public version. Do not commit `.streamlit/secrets.toml`, API keys, uploaded CVs or private datasets. Use `.streamlit/secrets.toml.example` as a template when the configuration files are available.
+The original CV datasets and any real candidate information are intentionally excluded from the public version. Use manually entered text or uploaded files in the app instead of the private dataset mode. Do not commit `.streamlit/secrets.toml`, API keys, uploaded CVs or private datasets. Use `.streamlit/secrets.toml.example` as a template when the configuration files are available.
 
 ## Author
 
